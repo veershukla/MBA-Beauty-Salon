@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+// import { Card } from 'react-bootstrap';
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <hr />
         </header>
         <div className="services">
-          <Card className="serviceCard">
+          {/* <Card className="serviceCard">
             <Card.Body>
               <Card.Text>Threading</Card.Text>
             </Card.Body>
@@ -53,7 +53,7 @@ function App() {
             <Card.Body>
               <Card.Text>Nails</Card.Text>
             </Card.Body>
-          </Card>
+          </Card> */}
         </div>
       </div>
 
