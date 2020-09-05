@@ -65,15 +65,11 @@ function App() {
           <h1>Visit Us</h1>
         </header>
         <div className="contactInfo">
-          <h3>{'1855 S. La Barbera Ave Mountain House, CA 95391'}</h3>
-          <h3>{'bindooveerendra@yahoo.com'}</h3>
+          <h3>{'1360 Railroad Avenue, Livermore, CA'}</h3>
+          <h3>{'mbabeautysalon@gmail.com'}</h3>
           <div className="openingHours">
             <h3>OPENING HOURS</h3>
-            <h3>
-              {
-                'Mon - Fri: 7am - 10pm  ​​Saturday: 8am - 10pm  Sunday: 8am - 11pm'
-              }
-            </h3>
+            <h3>{'Mon - Sat: 11am - 7pm Sunday: Closed'}</h3>
           </div>
         </div>
       </div>
