@@ -13,47 +13,49 @@ function App() {
           <h1 className="servicesTitle">Services</h1>
           <hr />
         </header>
-        <div className="services">
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Threading</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Hair and Color</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Waxing</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Facial</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Heena</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Eyelashes</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Microblading</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card className="serviceCard">
-            <Card.Body>
-              <Card.Text>Nails</Card.Text>
-            </Card.Body>
-          </Card>
+        <div style={{ maxWidth: '1600px', margin: 'auto' }}>
+          <div className="services">
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Threading</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Hair and Color</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Waxing</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Facial</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Heena</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Eyelashes</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Microblading</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card className="serviceCard">
+              <Card.Body>
+                <Card.Text>Nails</Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
       </div>
 
