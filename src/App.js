@@ -19,7 +19,7 @@ function App() {
               <Card.Text>Threading</Card.Text>
             </Card.Body>
           </Card>
-          {/* <Card className="serviceCard">
+          <Card className="serviceCard">
             <Card.Body>
               <Card.Text>Hair and Color</Card.Text>
             </Card.Body>
@@ -53,7 +53,7 @@ function App() {
             <Card.Body>
               <Card.Text>Nails</Card.Text>
             </Card.Body>
-          </Card> */}
+          </Card>
         </div>
       </div>
 
