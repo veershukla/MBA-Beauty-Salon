@@ -1,13 +1,49 @@
 .landingPageHeader {
-  font-family: 'Alex Brush', cursive;
   text-align: center;
-  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer{
+  width: 256px;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+}
+
+.companyName {
+  font-family: 'Noto Serif', serif;
+  color: #be342b;
+  font-size: 130px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.companyName2 {
+  margin-top: 0px;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 55px;
+}
+
+.customers {
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Lato', sans-serif;
+  white-space: pre;
+  font-size: 30px;
 }
 
 .services {
   font-family: 'Lato', sans-serif;
-  font-size: 40px;
-  color: white;
+  font-size: 35px;
+  /* color: black; */
   margin-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -19,12 +55,15 @@
 }
 
 .servicesHeader {
-  font-family: 'Marck Script', cursive;
+  /* font-family: 'Marck Script', cursive; */
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 .servicesTitle {
   margin-bottom: 20px;
+  /* margin-top: 0px; */
 }
 
 hr {
@@ -35,21 +74,26 @@ hr {
 
 .serviceCard {
   margin: 5px;
-  background-color: black;
+  background-color: white;
+  /* background-color: black; */
+  border: 2.5px solid #be342b;
   padding-left: 10px;
   padding-right: 10px;
   flex: 1;
 }
 
 .contact {
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
+  border: 2.5px solid #be342b;
   text-align: center;
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 50px;
   margin-top: 30px;
-  font-family: 'Marck Script', cursive;
+  /* font-family: 'Marck Script', cursive; */
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
   font-size: 20px;
   padding-top: 1px;
 }
@@ -63,13 +107,30 @@ hr {
     margin-left: 10%;
     margin-right: 10%;
   }
+  .companyName{
+    font-size: 15vw;
+  }
+  .companyName2{
+    font-size: 6vw;
+  }
+  .imageContainer{
+    width: 34vw;
+    height: 20vw;
+    margin-top: 2vw;
+  }
+  .customers{
+    font-size: 4vw;
+  }
+
 }
 
 .contactInfo {
   font-family: 'Lato', sans-serif;
+  font-style: initial;
   font-size: 15px;
   font-weight: 300;
   padding-bottom: 10px;
+  /* white-space: pre; */
 }
 
 .openingHours {
