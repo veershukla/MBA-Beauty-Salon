@@ -9,6 +9,8 @@ import HennaPage from './Services/HennaPage';
 import MicrobladingPage from './Services/MicrobladingPage';
 import EyelashesPage from './Services/EyelashesPage';
 import MakeupPage from './Services/MakeupPage';
+import ContactPage from './HomePage/Contact';
+import ServiceNavBar from './Services/ServiceNavBar';
 import {
   BrowserRouter as Router,
   Switch,
@@ -47,6 +49,11 @@ function App() {
             </Route>
             <Route path="/eyelashes">
               <EyelashesPage />
+            </Route>
+            <Route path="/contact">
+              <ServiceNavBar />
+              <hr />
+              <ContactPage />
             </Route>
             <Route path="/">
               <HomePage />

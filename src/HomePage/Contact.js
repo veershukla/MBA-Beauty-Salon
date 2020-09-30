@@ -7,7 +7,7 @@ export default () => {
   return (
     <div className="contact">
       <header>
-        <h1>Visit Us</h1>
+        <h1>Contact Us</h1>
       </header>
       <div className="contactInfo">
         <h3>{address}</h3>
