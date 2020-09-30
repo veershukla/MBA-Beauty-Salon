@@ -1,0 +1,33 @@
+.serviceNavBar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  margin: 2%;
+  list-style-type: none;
+}
+.serviceNavBarOption {
+  cursor: pointer;
+}
+
+.serviceNavBarOption:hover {
+  color: var(--main-outline-color);
+}
+
+.hairPageCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  #card {
+    width: 70% !important;
+  }
+
+  .hairPageCards {
+    display: block;
+  }
+
+  .serviceNavBar {
+    font-size: 4vw;
+  }
+}

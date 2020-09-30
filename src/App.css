@@ -75,7 +75,13 @@ hr {
   border: 2.5px solid var(--main-outline-color);
   padding-left: 10px;
   padding-right: 10px;
+  cursor: pointer;
   flex: 1;
+}
+
+.serviceCard:hover {
+  background-color: var(--main-outline-color);
+  color: white;
 }
 
 .contact {
