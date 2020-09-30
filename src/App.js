@@ -9,14 +9,19 @@ import HennaPage from './Services/HennaPage';
 import MicrobladingPage from './Services/MicrobladingPage';
 import EyelashesPage from './Services/EyelashesPage';
 import MakeupPage from './Services/MakeupPage';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  HashRouter,
+} from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <WebsiteHeader />
-      <Router>
+      <HashRouter>
         <div>
           <Switch>
             <Route path="/threading">
@@ -48,7 +53,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
