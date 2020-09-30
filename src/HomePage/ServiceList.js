@@ -2,9 +2,9 @@ import React from 'react';
 import ServiceCard from './ServiceCard';
 import arrayOfServices from '../Data/services';
 
-export default ({ setPage }) => {
+export default () => {
   const mappedServices = arrayOfServices.map((service) => {
-    return <ServiceCard key={service} service={service} setPage={setPage} />;
+    return <ServiceCard key={service} service={service} />;
   });
 
   return (

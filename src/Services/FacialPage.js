@@ -3,10 +3,10 @@ import ServiceNavBar from './ServiceNavBar';
 import facialData from '../Data/facial';
 import ServiceCard from './ServiceCard';
 
-export default ({ setPage }) => {
+export default () => {
   return (
     <div>
-      <ServiceNavBar setPage={setPage} />
+      <ServiceNavBar />
       <hr />
       <ServiceCard
         serviceTitle={facialData.serviceTitle}

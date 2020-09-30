@@ -2,10 +2,10 @@ import React from 'react';
 import ServiceList from './ServiceList';
 import Contact from './Contact';
 
-export default ({ setPage }) => {
+export default () => {
   return (
     <>
-      <ServiceList setPage={setPage} />
+      <ServiceList />
       <hr />
       <Contact />
     </>

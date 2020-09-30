@@ -5,10 +5,10 @@ import hairCutData from '../Data/haircut';
 import ServiceCard from './ServiceCard';
 import './ServiceCard.css';
 
-export default ({ setPage }) => {
+export default () => {
   return (
     <div>
-      <ServiceNavBar setPage={setPage} />
+      <ServiceNavBar />
       <hr />
       <div className="hairPageCards">
         <ServiceCard

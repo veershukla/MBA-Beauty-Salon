@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import WebsiteHeader from './HomePage/WebsiteHeader';
 import HomePage from './HomePage/HomePage';
 import ThreadingPage from './Services/ThreadingPage';
@@ -9,33 +9,46 @@ import HennaPage from './Services/HennaPage';
 import MicrobladingPage from './Services/MicrobladingPage';
 import EyelashesPage from './Services/EyelashesPage';
 import MakeupPage from './Services/MakeupPage';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
-  const [page, setPage] = useState('Home');
-  let renderedElement = <HomePage setPage={setPage} />;
-  if (page === 'Threading') {
-    renderedElement = <ThreadingPage setPage={setPage} />;
-  } else if (page === 'Waxing') {
-    renderedElement = <WaxingPage setPage={setPage} />;
-  } else if (page === 'Facial') {
-    renderedElement = <FacialPage setPage={setPage} />;
-  } else if (page === 'Hair') {
-    renderedElement = <HairPage setPage={setPage} />;
-  } else if (page === 'Henna') {
-    renderedElement = <HennaPage setPage={setPage} />;
-  } else if (page === 'Microblading') {
-    renderedElement = <MicrobladingPage setPage={setPage} />;
-  } else if (page === 'Eyelashes') {
-    renderedElement = <EyelashesPage setPage={setPage} />;
-  } else if (page === 'Makeup') {
-    renderedElement = <MakeupPage setPage={setPage} />;
-  }
-
   return (
     <div className="App">
       <WebsiteHeader />
-      {renderedElement}
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/threading">
+              <ThreadingPage />
+            </Route>
+            <Route path="/waxing">
+              <WaxingPage />
+            </Route>
+            <Route path="/facial">
+              <FacialPage />
+            </Route>
+            <Route path="/hair">
+              <HairPage />
+            </Route>
+            <Route path="/henna">
+              <HennaPage />
+            </Route>
+            <Route path="/microblading">
+              <MicrobladingPage />
+            </Route>
+            <Route path="/makeup">
+              <MakeupPage />
+            </Route>
+            <Route path="/eyelashes">
+              <EyelashesPage />
+            </Route>
+            <Route path="/">
+              <HomePage />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }

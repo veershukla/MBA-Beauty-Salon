@@ -1,35 +1,27 @@
 import React from 'react';
 import services from '../Data/services';
+import { Link } from 'react-router-dom';
 import './ServiceCard.css';
 
-export default ({ setPage }) => {
-  const setPageFunction = (e) => {
-    setPage(e.currentTarget.textContent);
-  };
-
+export default () => {
   const mappedServiceLiElements = services.map((ele) => {
     return (
       <li className="serviceNavBarOption">
-        <a
-          onClick={(e) => {
-            setPageFunction(e);
-          }}
+        <Link
+          to={`/${ele.toLowerCase()}`}
+          style={{ textDecoration: 'none', color: 'black' }}
         >
           {ele}
-        </a>
+        </Link>
       </li>
     );
   });
 
   mappedServiceLiElements.unshift(
     <li className="serviceNavBarOption">
-      <a
-        onClick={(e) => {
-          setPageFunction(e);
-        }}
-      >
+      <Link to={`/`} style={{ textDecoration: 'none', color: 'black' }}>
         Home
-      </a>
+      </Link>
     </li>
   );
 

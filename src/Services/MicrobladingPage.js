@@ -4,10 +4,10 @@ import microbladingData from '../Data/microblading';
 import ServiceCard from './ServiceCard';
 import './ServiceCard.css';
 
-export default ({ setPage }) => {
+export default () => {
   return (
     <div>
-      <ServiceNavBar setPage={setPage} />
+      <ServiceNavBar />
       <hr />
       <ServiceCard
         serviceTitle={microbladingData.serviceTitle}

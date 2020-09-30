@@ -3,10 +3,10 @@ import ServiceNavBar from './ServiceNavBar';
 import waxingData from '../Data/waxing';
 import ServiceCard from './ServiceCard';
 
-export default ({ setPage }) => {
+export default () => {
   return (
     <div>
-      <ServiceNavBar setPage={setPage} />
+      <ServiceNavBar />
       <hr />
       <ServiceCard
         serviceTitle={waxingData.serviceTitle}
