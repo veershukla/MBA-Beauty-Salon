@@ -21,7 +21,7 @@ export default ({
       <Card
         id="card"
         style={{
-          width: '45rem',
+          width: '40vw',
           border: '2px solid var(--main-outline-color)',
           borderRadius: '25px',
           fontFamily: 'Noto serif',
@@ -41,7 +41,8 @@ export default ({
         />
         <Card.Body>
           <Card.Title
-            style={{ textAlign: 'center', margin: '5%', fontSize: '40px' }}
+            className="serviceCardTitle"
+            style={{ textAlign: 'center', margin: '5%' }}
           >
             {serviceTitle}
           </Card.Title>

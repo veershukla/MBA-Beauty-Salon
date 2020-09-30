@@ -5,6 +5,10 @@ import ThreadingPage from './Services/ThreadingPage';
 import WaxingPage from './Services/WaxingPage';
 import FacialPage from './Services/FacialPage';
 import HairPage from './Services/HairPage';
+import HennaPage from './Services/HennaPage';
+import MicrobladingPage from './Services/MicrobladingPage';
+import EyelashesPage from './Services/EyelashesPage';
+import MakeupPage from './Services/MakeupPage';
 import './App.css';
 
 function App() {
@@ -18,6 +22,14 @@ function App() {
     renderedElement = <FacialPage setPage={setPage} />;
   } else if (page === 'Hair') {
     renderedElement = <HairPage setPage={setPage} />;
+  } else if (page === 'Henna') {
+    renderedElement = <HennaPage setPage={setPage} />;
+  } else if (page === 'Microblading') {
+    renderedElement = <MicrobladingPage setPage={setPage} />;
+  } else if (page === 'Eyelashes') {
+    renderedElement = <EyelashesPage setPage={setPage} />;
+  } else if (page === 'Makeup') {
+    renderedElement = <MakeupPage setPage={setPage} />;
   }
 
   return (
