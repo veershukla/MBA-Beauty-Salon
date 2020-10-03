@@ -11,12 +11,7 @@ import EyelashesPage from './Services/EyelashesPage';
 import MakeupPage from './Services/MakeupPage';
 import ContactPage from './HomePage/Contact';
 import ServiceNavBar from './Services/ServiceNavBar';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  HashRouter,
-} from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 import './App.css';
 
 function App() {

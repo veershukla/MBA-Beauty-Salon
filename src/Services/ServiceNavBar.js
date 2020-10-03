@@ -25,13 +25,13 @@ export default () => {
     </li>
   );
 
-  mappedServiceLiElements.push(
-    <li className="serviceNavBarOption">
-      <Link to={`/contact`} style={{ textDecoration: 'none', color: 'black' }}>
-        Contact Us
-      </Link>
-    </li>
-  );
+  // mappedServiceLiElements.push(
+  //   <li className="serviceNavBarOption">
+  //     <Link to={`/contact`} style={{ textDecoration: 'none', color: 'black' }}>
+  //       Contact Us
+  //     </Link>
+  //   </li>
+  // );
 
   return <div className="serviceNavBar">{mappedServiceLiElements}</div>;
 };

@@ -4,7 +4,7 @@ export default {
   serviceDescription: '',
   arrayOfServiceTypes: [
     'Root Touchup',
-    'Full Gair Color',
+    'Full Hair Color',
     'Permanent Straightening',
     'Perms',
     'Balyalage',

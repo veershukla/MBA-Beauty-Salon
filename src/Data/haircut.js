@@ -11,7 +11,7 @@ export default {
     'Hair wash',
     'Blow dry',
     'Head Massage with Hot oil',
-    'Hot oil & Deep Conditioning',
+    'Hot Oil & Deep Conditioning',
     'Hair Mask',
   ],
   serviceImages: [haircutImage],
