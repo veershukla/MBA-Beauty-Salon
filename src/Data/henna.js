@@ -7,10 +7,7 @@ export default {
     'Small Tattoo',
     'Back of the Hand',
     'Palm of the Hand',
-    'Full Feet',
-    'Back',
-    'Neck',
-    'Upper Arms',
+    'Feet',
   ],
   serviceImages: [hennaImage],
 };
