@@ -3,10 +3,10 @@ export default {
   serviceTitle: 'Makeup',
   serviceDescription: 'Enhancing facial aesthetics through makeup.',
   arrayOfServiceTypes: [
-    'Party Makeup',
-    'Wedding Makeup',
-    'Prom Makeup',
-    'Picture Shoot Makeup',
+    'Party Makeup - $65',
+    'Wedding Makeup - $65',
+    'Prom Makeup - $65',
+    'Picture Shoot Makeup - $65',
   ],
   serviceImages: [makeupImage],
 };

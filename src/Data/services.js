@@ -7,4 +7,6 @@ export default [
   'Eyelashes',
   'Microblading',
   'Makeup',
+  'Nails',
+  'Bleach',
 ];

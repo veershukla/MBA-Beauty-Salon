@@ -7,6 +7,8 @@ import FacialPage from './Services/FacialPage';
 import HairPage from './Services/HairPage';
 import HennaPage from './Services/HennaPage';
 import MicrobladingPage from './Services/MicrobladingPage';
+import NailsPage from './Services/NailsPage';
+import BleachPage from './Services/BleachPage';
 import EyelashesPage from './Services/EyelashesPage';
 import MakeupPage from './Services/MakeupPage';
 import ContactPage from './HomePage/Contact';
@@ -49,6 +51,12 @@ function App() {
               <ServiceNavBar />
               <hr />
               <ContactPage />
+            </Route>
+            <Route path="/nails">
+              <NailsPage />
+            </Route>
+            <Route path="/bleach">
+              <BleachPage />
             </Route>
             <Route path="/">
               <HomePage />
