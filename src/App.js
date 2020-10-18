@@ -11,6 +11,7 @@ import NailsPage from './Services/NailsPage';
 import BleachPage from './Services/BleachPage';
 import EyelashesPage from './Services/EyelashesPage';
 import MakeupPage from './Services/MakeupPage';
+import HairCarePage from './Services/HairCarePage';
 import ContactPage from './HomePage/Contact';
 import ServiceNavBar from './Services/ServiceNavBar';
 import { Switch, Route, HashRouter } from 'react-router-dom';
@@ -57,6 +58,9 @@ function App() {
             </Route>
             <Route path="/bleach">
               <BleachPage />
+            </Route>
+            <Route path="/hairstyle">
+              <HairCarePage />
             </Route>
             <Route path="/">
               <HomePage />

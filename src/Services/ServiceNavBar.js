@@ -8,7 +8,7 @@ export default () => {
     return (
       <li className="serviceNavBarOption">
         <Link
-          to={`/${ele.toLowerCase()}`}
+          to={`/${ele.toLowerCase().split(' ').join('')}`}
           style={{ textDecoration: 'none', color: 'black' }}
         >
           {ele}
