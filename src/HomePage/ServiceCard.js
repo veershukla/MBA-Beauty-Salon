@@ -6,7 +6,7 @@ export default ({ service }) => {
   return (
     <Link
       style={{ textDecoration: 'none', color: 'black' }}
-      to={`/${service.toLowerCase()}`}
+      to={`/${service.toLowerCase().split(' ').join('')}`}
     >
       <Card className="serviceCard">
         <Card.Body>
