@@ -3,7 +3,7 @@ export default {
   serviceTitle: 'Hair Cut',
   serviceDescription: '',
   arrayOfServiceTypes: [
-    "Men's Haircut - $20+",
+    "Men's Haircut - $25+",
     "Kid's Haircut - $20+",
     'Women Trim/U-Shape/V-Shape - $25',
     'W-Layer/Steapcut - $35+',
