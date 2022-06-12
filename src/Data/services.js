@@ -5,9 +5,7 @@ export default [
   'Waxing',
   'Facial',
   'Henna',
-  'Eyelashes',
   'Microblading',
   'Makeup',
-  'Nails',
   'Bleach',
 ];
