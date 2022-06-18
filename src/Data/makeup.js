@@ -5,7 +5,7 @@ export default {
   arrayOfServiceTypes: [
     'Party Makeup - $65',
     'Wedding Makeup - $65',
-    'Prom Makeup - $65',
+    'Prom Makeup - $150',
     'Picture Shoot Makeup - $65',
   ],
   serviceImages: [makeupImage],
