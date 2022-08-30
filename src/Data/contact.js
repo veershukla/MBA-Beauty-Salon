@@ -7,5 +7,5 @@ export default {
     B: '(408) 477 - 5011',
     A: '(916) 512 - 7439',
   },
-  openingHours: 'Mon - Sat: 11am - 7pm Sunday: 11am - 5pm',
+  openingHours: 'Mon - Sat: 11am - 7pm Sunday: Closed',
 };
